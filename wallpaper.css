@@ -1,0 +1,86 @@
+:root {
+    --clock-color: #cab5ff;
+    --clock-shadow-color: #252143;
+    --clock-font: "Playball";
+}
+
+@font-face {
+    font-family: "Borel";
+    src: url("./fonts/Borel-Regular.ttf");
+}
+@font-face {
+    font-family: "Merienda";
+    src: url("./fonts/Merienda-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Niconne";
+    src: url("./fonts/Niconne-Regular.ttf");
+}
+@font-face {
+    font-family: "Playball";
+    src: url("./fonts/Playball-Regular.ttf");
+}
+
+
+body {
+    /* background-image: url("./venti.jpg"); */
+    /* background-size: cover; */
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+#bgVideo {
+    position: absolute;
+    
+    /* width: 100%; */
+    height: 100%;
+
+    z-index: 1;
+
+}
+
+#clock {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    
+    font-family: var(--clock-font);
+    font-size: 14vh;
+    
+    line-height: 14vh;
+
+    text-shadow: 3px 3px var(--clock-shadow-color);
+    color: var(--clock-color);
+
+    z-index: 100;
+}
+
+#clock .topline {
+    display: flex;
+}
+
+#clock .bottomline {
+    display: flex;
+
+}
+
+hh, mm {
+    font-size: 14vh;
+}
+
+session {
+    position: absolute;
+
+    font-size: 5vh;
+    margin-left: 20vw;
+}
+
+day {
+    margin-left: auto;
+    margin-right: auto;
+
+    line-height: 10vh;
+
+    font-size: 8vh;
+}
