@@ -1,0 +1,36 @@
+{
+"sessionMargin": {
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "text": "Session Margin",
+    "type": "slider",
+    "help": "Left Side Margin of AM/PM",
+    "value": 30 
+},
+"bgMargin": {
+    "min": -50,
+    "max": 50,
+    "step": 1,
+    "text": "Background-Y Adjust",
+    "type": "slider",
+    "value": -6
+},
+"bgVideo": {
+    "type": "folderDropdown",
+    "value": "inazuma.webm",
+    "text": "Background Video",
+    "filter": "*.webm",
+    "folder": "wallpapers"
+},
+"clockColor": {
+    "text": "Clock Color",
+    "type": "color",
+    "value": "#cab5ff"
+},
+"clockShadowColor": {
+    "text": "Clock Shadow Color",
+    "type": "color",
+    "value": "#252143"
+  }
+}
